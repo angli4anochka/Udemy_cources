@@ -1,0 +1,204 @@
+body {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.table {
+    margin: 0 auto;
+    border-spacing: 3em 1em;
+    border: 1px solid orange;
+  
+   
+    
+  }
+
+.tbody tr {
+   
+    padding: 10px;
+}
+
+
+.tbody td {
+    
+    background-image: url(./img/bg.jpg);
+    border-radius: 30px;
+    margin-right: 30px;
+    
+}
+  
+  .table_list {
+      padding: 20px;
+  }
+
+  .player_img1 {
+      background-image: url('./img/student_1.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 50px;
+      height: 50px;
+      border-radius: 20%;
+      background-size: cover;
+      padding: 20px;
+  }
+  
+  .player_img2 {
+      background-image: url('./img/student_2.JPEG');
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 50px;
+      height: 50px;
+      border-radius: 20%;
+      padding: 20px;
+      background-size: cover;
+  }
+  
+  .player_img3 {
+      background-image: url('./img/student_3.JPG');
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 50px;
+      height: 50px;
+      border-radius: 20%;
+      background-size: cover;
+      padding: 20px
+  }
+  
+  .player_img4 {
+      background-image: url('./img/student_4.PNG');
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 50px;
+      height: 50px;
+      border-radius: 20%;
+      background-size: cover;
+      padding: 20px
+  }
+
+  .player_img5 {
+    background-image: url('./img/chemistry.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-size: cover;
+    padding: 20px
+}
+  
+  .player_img6 {
+      background-image: url('./img/student_6.JPG');
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 50px;
+      height: 50px;
+      border-radius: 20%;
+      background-size: cover;
+      padding: 20px
+  }
+  
+  .player_img7 {
+      background-image: url('./img/student_7.JPEG');
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 50px;
+      height: 50px;
+      border-radius: 20%;
+      background-size: cover;
+      padding: 20px
+  }
+  
+  .chemistry_badge {
+      background-image: url('./img/chemistry.png');
+      background-repeat: no-repeat;
+      background-position: left;
+      width: 15px;
+      height: 15px;
+      padding: 5px;
+      background-size: contain;
+  }
+  
+  .mathematics_badge {
+      background-image: url('./img/math.png');
+      background-repeat: no-repeat;
+      background-position: left;
+      width: 25px;
+      height: 25px;
+      padding: 5px;
+      background-size: contain;
+  }
+  
+  .table_badges {
+      width: 20px;
+      height: 20px;
+  }
+
+  .winner {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+  }
+
+  span {
+    margin-right: 5px;
+    padding: 0 10px ;
+    font-size: 16px;
+  }
+
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, - 50%);
+    margin: 0 auto;
+    background-color: #fefefe;
+    padding: 25px 30px;
+    max-width: 450px
+  }
+
+  .winner_title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modalPicture {
+    height: 250px;
+    width: 250px;
+  }
